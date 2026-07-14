@@ -1,0 +1,50 @@
+[
+  {
+    "id": 1,
+    "category": "Orders",
+    "question": "How can I track my order?",
+    "answer": "Once your order ships, you'll receive a confirmation email with a tracking link. You can also view order status anytime from your Account page."
+  },
+  {
+    "id": 2,
+    "category": "Orders",
+    "question": "Can I change or cancel my order after placing it?",
+    "answer": "Orders can be modified or canceled within 1 hour of purchase. After that, our fulfillment team has already begun processing your package."
+  },
+  {
+    "id": 3,
+    "category": "Shipping",
+    "question": "How long does shipping take?",
+    "answer": "Standard shipping takes 3-5 business days. Express shipping (1-2 business days) is available at checkout for an additional fee."
+  },
+  {
+    "id": 4,
+    "category": "Shipping",
+    "question": "Do you ship internationally?",
+    "answer": "We currently ship to the US, Canada, and select countries in Europe. International shipping times vary by destination."
+  },
+  {
+    "id": 5,
+    "category": "Returns",
+    "question": "What is your return policy?",
+    "answer": "We accept returns on unworn items within 30 days of delivery. Items must be in original packaging with tags attached."
+  },
+  {
+    "id": 6,
+    "category": "Returns",
+    "question": "How do I start a return?",
+    "answer": "Log in to your Account, select the order, and choose 'Start a Return'. You'll receive a prepaid shipping label by email."
+  },
+  {
+    "id": 7,
+    "category": "Sizing",
+    "question": "How do I find my correct size?",
+    "answer": "Each product page includes a size guide. Our fits run true to size — if you're between sizes, we generally recommend sizing up for a relaxed fit or down for a fitted look."
+  },
+  {
+    "id": 8,
+    "category": "Account",
+    "question": "Do I need an account to place an order?",
+    "answer": "No, you can check out as a guest. Creating an account lets you track orders, save addresses, and build a wishlist."
+  }
+]

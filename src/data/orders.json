@@ -1,0 +1,76 @@
+[
+  {
+    "id": "EFF-100231",
+    "createdAt": "2026-06-02T14:32:00.000Z",
+    "status": "delivered",
+    "items": [
+      {
+        "productId": 1,
+        "name": "One-Shoulder Ruched Column Gown",
+        "image": "/images/products/dress1.jpg",
+        "imageBg": "#fefefe",
+        "price": 248,
+        "quantity": 1,
+        "size": "M",
+        "color": "Ivory"
+      },
+      {
+        "productId": 45,
+        "name": "Sculpted Flower Stud Earrings",
+        "image": "/images/products/accessories4.jpg",
+        "imageBg": "#ffffff",
+        "price": 42,
+        "quantity": 1,
+        "size": "One Size",
+        "color": "Gold"
+      }
+    ],
+    "subtotal": 290,
+    "shipping": 0,
+    "tax": 23.2,
+    "total": 313.2,
+    "shippingAddress": {
+      "fullName": "Jordan Reyes",
+      "line1": "482 Maple Street",
+      "line2": "Apt 3B",
+      "city": "Austin",
+      "state": "TX",
+      "postalCode": "78701",
+      "country": "United States",
+      "phone": "555-201-4487"
+    },
+    "paymentMethod": "Visa ending in 4242"
+  },
+  {
+    "id": "EFF-100198",
+    "createdAt": "2026-05-14T09:10:00.000Z",
+    "status": "shipped",
+    "items": [
+      {
+        "productId": 23,
+        "name": "Wide-Leg High-Rise Jeans",
+        "image": "/images/products/trouser2.jpg",
+        "imageBg": "#ffffff",
+        "price": 108,
+        "quantity": 1,
+        "size": "S",
+        "color": "Grey Wash"
+      }
+    ],
+    "subtotal": 108,
+    "shipping": 8,
+    "tax": 9.28,
+    "total": 125.28,
+    "shippingAddress": {
+      "fullName": "Jordan Reyes",
+      "line1": "482 Maple Street",
+      "line2": "Apt 3B",
+      "city": "Austin",
+      "state": "TX",
+      "postalCode": "78701",
+      "country": "United States",
+      "phone": "555-201-4487"
+    },
+    "paymentMethod": "Visa ending in 4242"
+  }
+]

@@ -1,0 +1,98 @@
+@import "tailwindcss";
+
+@theme {
+  --font-sans: "Inter", ui-sans-serif, system-ui, -apple-system, sans-serif;
+
+  --color-ink-950: #0a0a0a;
+  --color-ink-900: #141414;
+  --color-ink-800: #262626;
+  --color-ink-700: #3d3d3d;
+  --color-ink-600: #595959;
+  --color-ink-500: #767676;
+  --color-ink-400: #a3a3a3;
+  --color-ink-300: #d1d1d1;
+  --color-ink-200: #e5e5e5;
+  --color-ink-100: #f2f2f2;
+  --color-ink-50: #fafafa;
+
+  --color-accent-600: #6b6660;
+  --color-accent-500: #8c8680;
+  --color-accent-400: #aca79f;
+  --color-accent-100: #e9e6e1;
+
+  --animate-fade-in: fade-in 0.4s ease-out;
+  --animate-slide-up: slide-up 0.35s ease-out;
+  --animate-hero-float: hero-float 4.5s ease-in-out infinite;
+  --animate-hero-shadow: hero-shadow 4.5s ease-in-out infinite;
+  --animate-hero-in: hero-in 0.9s cubic-bezier(.22,1,.36,1) both;
+  --animate-underline: underline-draw 0.9s cubic-bezier(.65,0,.35,1) 0.5s both;
+
+  @keyframes fade-in {
+    from { opacity: 0; }
+    to { opacity: 1; }
+  }
+  @keyframes slide-up {
+    from { opacity: 0; transform: translateY(8px); }
+    to { opacity: 1; transform: translateY(0); }
+  }
+  @keyframes hero-float {
+    0%, 100% { transform: translateY(0); }
+    50% { transform: translateY(-14px); }
+  }
+  @keyframes hero-shadow {
+    0%, 100% { transform: scaleX(1); opacity: 0.35; }
+    50% { transform: scaleX(0.8); opacity: 0.2; }
+  }
+  @keyframes hero-in {
+    from { opacity: 0; transform: translateY(24px) scale(0.94); }
+    to { opacity: 1; transform: translateY(0) scale(1); }
+  }
+  @keyframes underline-draw {
+    from { transform: scaleX(0); }
+    to { transform: scaleX(1); }
+  }
+}
+
+@layer base {
+  * {
+    border-color: var(--color-ink-200);
+  }
+  html {
+    scroll-behavior: smooth;
+  }
+  body {
+    background-color: #ffffff;
+    color: var(--color-ink-950);
+    font-feature-settings: "cv02", "cv03", "cv04", "cv11";
+  }
+  ::selection {
+    background-color: var(--color-accent-100);
+    color: var(--color-ink-950);
+  }
+}
+
+@layer utilities {
+  .container-page {
+    width: 100%;
+    max-width: 84rem;
+    margin-inline: auto;
+    padding-inline: 1.25rem;
+  }
+  @media (min-width: 640px) {
+    .container-page {
+      padding-inline: 2rem;
+    }
+  }
+  @media (min-width: 1024px) {
+    .container-page {
+      padding-inline: 3rem;
+    }
+  }
+
+  .line-clamp-2 {
+    display: -webkit-box;
+    -webkit-line-clamp: 2;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+  }
+}

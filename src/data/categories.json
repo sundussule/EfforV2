@@ -1,0 +1,37 @@
+[
+  {
+    "id": 1,
+    "slug": "dresses",
+    "name": "Dresses",
+    "description": "Effortless silhouettes for day to evening.",
+    "image": "/images/categories/dresses.jpg"
+  },
+  {
+    "id": 2,
+    "slug": "skirts",
+    "name": "Skirts",
+    "description": "Midi, mermaid and maxi skirts for every occasion.",
+    "image": "/images/categories/skirts.jpg"
+  },
+  {
+    "id": 3,
+    "slug": "trousers-jeans",
+    "name": "Trousers & Jeans",
+    "description": "Tailored trousers and denim that move with you.",
+    "image": "/images/categories/trousers-jeans.jpg"
+  },
+  {
+    "id": 4,
+    "slug": "shirts",
+    "name": "Shirts",
+    "description": "Blouses and tops for work and weekend.",
+    "image": "/images/categories/shirts.jpg"
+  },
+  {
+    "id": 5,
+    "slug": "accessories",
+    "name": "Accessories",
+    "description": "Fine jewelry and the finishing details.",
+    "image": "/images/categories/accessories.jpg"
+  }
+]

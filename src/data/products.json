@@ -1,0 +1,2125 @@
+[
+  {
+    "id": 1,
+    "slug": "one-shoulder-ruched-column-gown",
+    "name": "One-Shoulder Ruched Column Gown",
+    "brand": "Effor",
+    "categorySlug": "dresses",
+    "price": 248,
+    "currency": "USD",
+    "images": [
+      "/images/products/dress1.jpg"
+    ],
+    "colors": [
+      {
+        "name": "Ivory",
+        "hex": "#f5f0e6"
+      }
+    ],
+    "sizes": [
+      "XS",
+      "S",
+      "M",
+      "L",
+      "XL"
+    ],
+    "rating": 4.6,
+    "reviewCount": 225,
+    "description": "A floor-length column gown with an asymmetric draped shoulder and ruching that wraps through the waist for a sculpted, second-skin fit.",
+    "features": [
+      "Asymmetric one-shoulder neckline",
+      "Ruched waist and hip detailing",
+      "Long fitted sleeve with cuff slit",
+      "Floor-length column silhouette"
+    ],
+    "tags": [
+      "dresses",
+      "occasion",
+      "bestseller"
+    ],
+    "isNew": false,
+    "inStock": true,
+    "imageBg": "#fefefe"
+  },
+  {
+    "id": 2,
+    "slug": "one-shoulder-bell-sleeve-gown",
+    "name": "One-Shoulder Bell-Sleeve Gown",
+    "brand": "Effor",
+    "categorySlug": "dresses",
+    "price": 228,
+    "compareAtPrice": 268,
+    "currency": "USD",
+    "images": [
+      "/images/products/dress2.jpg"
+    ],
+    "colors": [
+      {
+        "name": "Blush",
+        "hex": "#e8c9c9"
+      }
+    ],
+    "sizes": [
+      "XS",
+      "S",
+      "M",
+      "L",
+      "XL"
+    ],
+    "rating": 4,
+    "reviewCount": 301,
+    "description": "A soft blush gown with an asymmetric neckline, gathered waist and a fluted bell sleeve that catches movement as you walk.",
+    "features": [
+      "Asymmetric draped neckline",
+      "Gathered waist seaming",
+      "Fluted bell sleeve",
+      "Sweeping floor-length hem"
+    ],
+    "tags": [
+      "dresses",
+      "occasion",
+      "sale"
+    ],
+    "isNew": false,
+    "inStock": true,
+    "imageBg": "#fefafc"
+  },
+  {
+    "id": 3,
+    "slug": "off-shoulder-lace-mermaid-gown",
+    "name": "Off-Shoulder Lace Mermaid Gown",
+    "brand": "Effor",
+    "categorySlug": "dresses",
+    "price": 268,
+    "currency": "USD",
+    "images": [
+      "/images/products/dress3.jpg"
+    ],
+    "colors": [
+      {
+        "name": "Ivory",
+        "hex": "#f5f0e6"
+      }
+    ],
+    "sizes": [
+      "XS",
+      "S",
+      "M",
+      "L",
+      "XL"
+    ],
+    "rating": 4.7,
+    "reviewCount": 98,
+    "description": "An all-over floral lace gown with a fold-over bardot neckline and fluted lace cuffs, fitted through the body into a mermaid hem.",
+    "features": [
+      "Bardot off-shoulder collar",
+      "All-over floral lace",
+      "Fluted lace cuffs",
+      "Fitted mermaid silhouette"
+    ],
+    "tags": [
+      "dresses",
+      "occasion",
+      "bridal",
+      "new"
+    ],
+    "isNew": true,
+    "inStock": true,
+    "imageBg": "#f7f7f7"
+  },
+  {
+    "id": 4,
+    "slug": "sculptural-ruffle-satin-gown",
+    "name": "Sculptural Ruffle Satin Gown",
+    "brand": "Effor",
+    "categorySlug": "dresses",
+    "price": 298,
+    "currency": "USD",
+    "images": [
+      "/images/products/dress4.jpg"
+    ],
+    "colors": [
+      {
+        "name": "Black",
+        "hex": "#0d0d0d"
+      }
+    ],
+    "sizes": [
+      "XS",
+      "S",
+      "M",
+      "L",
+      "XL"
+    ],
+    "rating": 3.9,
+    "reviewCount": 378,
+    "description": "A dramatic one-shoulder satin gown with a sculptural cascading ruffle that runs from the shoulder to a soft train.",
+    "features": [
+      "One-shoulder sculptural ruffle",
+      "Fitted satin bodice",
+      "Side leg slit",
+      "Sweeps into a soft train"
+    ],
+    "tags": [
+      "dresses",
+      "evening",
+      "red-carpet"
+    ],
+    "isNew": false,
+    "inStock": false,
+    "imageBg": "#ffffff"
+  },
+  {
+    "id": 5,
+    "slug": "butterfly-sash-chiffon-gown",
+    "name": "Butterfly Sash Chiffon Gown",
+    "brand": "Effor",
+    "categorySlug": "dresses",
+    "price": 218,
+    "currency": "USD",
+    "images": [
+      "/images/products/dress5.jpg"
+    ],
+    "colors": [
+      {
+        "name": "Navy",
+        "hex": "#1f2937"
+      }
+    ],
+    "sizes": [
+      "XS",
+      "S",
+      "M",
+      "L",
+      "XL"
+    ],
+    "rating": 5,
+    "reviewCount": 490,
+    "description": "A navy chiffon gown with a draped one-shoulder neckline, fluted bell sleeves and a sequin butterfly clip anchoring the waist sash.",
+    "features": [
+      "Draped one-shoulder neckline",
+      "Fluted chiffon bell sleeves",
+      "Sequin butterfly waist clip",
+      "Long tie sash"
+    ],
+    "tags": [
+      "dresses",
+      "occasion",
+      "new"
+    ],
+    "isNew": true,
+    "inStock": true,
+    "imageBg": "#e5e5e5"
+  },
+  {
+    "id": 6,
+    "slug": "slip-dress-sheer-duster-set",
+    "name": "Slip Dress & Sheer Duster Set",
+    "brand": "Effor",
+    "categorySlug": "dresses",
+    "price": 158,
+    "currency": "USD",
+    "images": [
+      "/images/products/dress6.jpg"
+    ],
+    "colors": [
+      {
+        "name": "Sky Blue",
+        "hex": "#b7d1de"
+      }
+    ],
+    "sizes": [
+      "XS",
+      "S",
+      "M",
+      "L",
+      "XL"
+    ],
+    "rating": 4.9,
+    "reviewCount": 230,
+    "description": "A fitted ivory slip dress layered under a sheer sky-blue chiffon duster with ruffled bell sleeves — wear the duster on or off.",
+    "features": [
+      "Two-piece set: slip dress + sheer duster",
+      "Ruched slip dress bodice",
+      "Sheer chiffon duster with ruffled cuffs",
+      "Duster falls to floor length"
+    ],
+    "tags": [
+      "dresses",
+      "layering"
+    ],
+    "isNew": false,
+    "inStock": true,
+    "imageBg": "#ffffff"
+  },
+  {
+    "id": 7,
+    "slug": "polka-dot-square-neck-midi-dress",
+    "name": "Polka Dot Square-Neck Midi Dress",
+    "brand": "Effor",
+    "categorySlug": "dresses",
+    "price": 148,
+    "currency": "USD",
+    "images": [
+      "/images/products/dress7.jpg"
+    ],
+    "colors": [
+      {
+        "name": "Ivory Dot",
+        "hex": "#f2ede1"
+      }
+    ],
+    "sizes": [
+      "XS",
+      "S",
+      "M",
+      "L",
+      "XL"
+    ],
+    "rating": 4.9,
+    "reviewCount": 425,
+    "description": "A fit-and-flare midi dress in a classic polka dot cotton blend, with a structured square neckline and a full pleated skirt.",
+    "features": [
+      "Structured square neckline",
+      "Fitted, boned bodice",
+      "Full pleated midi skirt",
+      "Side seam pockets"
+    ],
+    "tags": [
+      "dresses",
+      "daywear",
+      "bestseller"
+    ],
+    "isNew": false,
+    "inStock": true,
+    "imageBg": "#ffffff"
+  },
+  {
+    "id": 8,
+    "slug": "polka-dot-mock-neck-midi-dress",
+    "name": "Polka Dot Mock-Neck Midi Dress",
+    "brand": "Effor",
+    "categorySlug": "dresses",
+    "price": 148,
+    "currency": "USD",
+    "images": [
+      "/images/products/dress8.jpg"
+    ],
+    "colors": [
+      {
+        "name": "Ivory Dot",
+        "hex": "#f2ede1"
+      }
+    ],
+    "sizes": [
+      "XS",
+      "S",
+      "M",
+      "L",
+      "XL"
+    ],
+    "rating": 4.3,
+    "reviewCount": 95,
+    "description": "A polka dot midi dress with a fitted mock neck, capped sleeves and a full pleated skirt for a polished vintage-inspired silhouette.",
+    "features": [
+      "Mock neckline",
+      "Cap sleeves",
+      "Fitted, seamed bodice",
+      "Full pleated midi skirt"
+    ],
+    "tags": [
+      "dresses",
+      "daywear"
+    ],
+    "isNew": false,
+    "inStock": true,
+    "imageBg": "#e5e5e5"
+  },
+  {
+    "id": 9,
+    "slug": "strapless-ruffle-high-low-dress",
+    "name": "Strapless Ruffle High-Low Dress",
+    "brand": "Effor",
+    "categorySlug": "dresses",
+    "price": 208,
+    "currency": "USD",
+    "images": [
+      "/images/products/dress9.jpg"
+    ],
+    "colors": [
+      {
+        "name": "White",
+        "hex": "#f7f5f2"
+      }
+    ],
+    "sizes": [
+      "XS",
+      "S",
+      "M",
+      "L",
+      "XL"
+    ],
+    "rating": 4.5,
+    "reviewCount": 315,
+    "description": "A strapless textured dress with a smocked bodice and a dramatic tiered ruffle skirt that dips high-low at the hem.",
+    "features": [
+      "Strapless smocked bodice",
+      "Tiered ruffle skirt",
+      "Dramatic high-low hem",
+      "Fitted through the waist"
+    ],
+    "tags": [
+      "dresses",
+      "occasion",
+      "new"
+    ],
+    "isNew": true,
+    "inStock": true,
+    "imageBg": "#ffffff"
+  },
+  {
+    "id": 10,
+    "slug": "lace-halter-bow-neck-dress",
+    "name": "Lace Halter Bow-Neck Dress",
+    "brand": "Effor",
+    "categorySlug": "dresses",
+    "price": 188,
+    "currency": "USD",
+    "images": [
+      "/images/products/dress10.jpg"
+    ],
+    "colors": [
+      {
+        "name": "Ivory",
+        "hex": "#f5f0e6"
+      }
+    ],
+    "sizes": [
+      "XS",
+      "S",
+      "M",
+      "L",
+      "XL"
+    ],
+    "rating": 3.9,
+    "reviewCount": 76,
+    "description": "A romantic lace halter dress with a bow-tie neckline, plunging front and a tiered ruffle skirt that falls to a full midi hem.",
+    "features": [
+      "Bow-tie halter neckline",
+      "All-over textured lace",
+      "Tiered ruffle skirt",
+      "Smocked waistband for stretch"
+    ],
+    "tags": [
+      "dresses",
+      "occasion"
+    ],
+    "isNew": false,
+    "inStock": true,
+    "imageBg": "#b6b5b4"
+  },
+  {
+    "id": 11,
+    "slug": "tiered-ruffle-high-low-skirt",
+    "name": "Tiered Ruffle High-Low Skirt",
+    "brand": "Effor",
+    "categorySlug": "skirts",
+    "price": 128,
+    "currency": "USD",
+    "images": [
+      "/images/products/skirt.jpg"
+    ],
+    "colors": [
+      {
+        "name": "Chartreuse",
+        "hex": "#d8d99a"
+      }
+    ],
+    "sizes": [
+      "XS",
+      "S",
+      "M",
+      "L",
+      "XL"
+    ],
+    "rating": 3.9,
+    "reviewCount": 264,
+    "description": "A fluid chiffon skirt built from layered asymmetric ruffles that fall into a dramatic high-low hem.",
+    "features": [
+      "Layered asymmetric ruffles",
+      "Dramatic high-low hem",
+      "Ruched waistband",
+      "Sheer chiffon overlay"
+    ],
+    "tags": [
+      "skirts",
+      "occasion",
+      "new"
+    ],
+    "isNew": true,
+    "inStock": true,
+    "imageBg": "#ffffff"
+  },
+  {
+    "id": 12,
+    "slug": "lace-mermaid-maxi-skirt",
+    "name": "Lace Mermaid Maxi Skirt",
+    "brand": "Effor",
+    "categorySlug": "skirts",
+    "price": 138,
+    "currency": "USD",
+    "images": [
+      "/images/products/skirt1.jpg"
+    ],
+    "colors": [
+      {
+        "name": "Ivory",
+        "hex": "#f5f0e6"
+      }
+    ],
+    "sizes": [
+      "XS",
+      "S",
+      "M",
+      "L",
+      "XL"
+    ],
+    "rating": 4,
+    "reviewCount": 34,
+    "description": "An all-over lace maxi skirt, ruched at the waist and fitted through the hip before flaring into a soft mermaid hem.",
+    "features": [
+      "All-over floral lace",
+      "Ruched high waist",
+      "Fitted through the hip",
+      "Flared mermaid hem"
+    ],
+    "tags": [
+      "skirts",
+      "occasion",
+      "bestseller"
+    ],
+    "isNew": false,
+    "inStock": true,
+    "imageBg": "#aeafad"
+  },
+  {
+    "id": 13,
+    "slug": "satin-maxi-skirt-with-lace-hem",
+    "name": "Satin Maxi Skirt with Lace Hem",
+    "brand": "Effor",
+    "categorySlug": "skirts",
+    "price": 148,
+    "currency": "USD",
+    "images": [
+      "/images/products/skirt2.jpg"
+    ],
+    "colors": [
+      {
+        "name": "Champagne",
+        "hex": "#e8ddc9"
+      }
+    ],
+    "sizes": [
+      "XS",
+      "S",
+      "M",
+      "L",
+      "XL"
+    ],
+    "rating": 4.7,
+    "reviewCount": 395,
+    "description": "A bias-cut satin maxi skirt finished with a scalloped black lace hem for a contrast that reads dressed-up and unexpected.",
+    "features": [
+      "Bias-cut satin",
+      "Scalloped lace hem contrast",
+      "Fluid, floor-skimming drape",
+      "Concealed back zip"
+    ],
+    "tags": [
+      "skirts",
+      "occasion"
+    ],
+    "isNew": false,
+    "inStock": true,
+    "imageBg": "#fefefe"
+  },
+  {
+    "id": 14,
+    "slug": "wine-lace-mermaid-skirt",
+    "name": "Wine Lace Mermaid Skirt",
+    "brand": "Effor",
+    "categorySlug": "skirts",
+    "price": 138,
+    "currency": "USD",
+    "images": [
+      "/images/products/skirt3.jpg"
+    ],
+    "colors": [
+      {
+        "name": "Wine",
+        "hex": "#5c1a2b"
+      }
+    ],
+    "sizes": [
+      "XS",
+      "S",
+      "M",
+      "L",
+      "XL"
+    ],
+    "rating": 3.9,
+    "reviewCount": 40,
+    "description": "The lace mermaid skirt in a deep wine tone, ruched at the waist and fitted through the hip with a soft flared hem.",
+    "features": [
+      "All-over floral lace",
+      "Ruched high waist",
+      "Fitted through the hip",
+      "Flared mermaid hem"
+    ],
+    "tags": [
+      "skirts",
+      "occasion"
+    ],
+    "isNew": false,
+    "inStock": false,
+    "imageBg": "#afafaf"
+  },
+  {
+    "id": 15,
+    "slug": "ruffle-drape-satin-mermaid-skirt",
+    "name": "Ruffle-Drape Satin Mermaid Skirt",
+    "brand": "Effor",
+    "categorySlug": "skirts",
+    "price": 158,
+    "currency": "USD",
+    "images": [
+      "/images/products/skirt4.jpg"
+    ],
+    "colors": [
+      {
+        "name": "Black",
+        "hex": "#0d0d0d"
+      }
+    ],
+    "sizes": [
+      "XS",
+      "S",
+      "M",
+      "L",
+      "XL"
+    ],
+    "rating": 4.5,
+    "reviewCount": 288,
+    "description": "A fitted satin mermaid skirt with a cascading ruffle drape at the hip, secured with a polished hardware clasp.",
+    "features": [
+      "Fitted mermaid silhouette",
+      "Cascading side ruffle drape",
+      "Polished hardware clasp",
+      "High-low hem"
+    ],
+    "tags": [
+      "skirts",
+      "evening",
+      "bestseller"
+    ],
+    "isNew": false,
+    "inStock": true,
+    "imageBg": "#e1e1e0"
+  },
+  {
+    "id": 16,
+    "slug": "floral-print-mermaid-skirt",
+    "name": "Floral Print Mermaid Skirt",
+    "brand": "Effor",
+    "categorySlug": "skirts",
+    "price": 128,
+    "currency": "USD",
+    "images": [
+      "/images/products/skirt5.jpg"
+    ],
+    "colors": [
+      {
+        "name": "White Floral",
+        "hex": "#f2eee8"
+      }
+    ],
+    "sizes": [
+      "XS",
+      "S",
+      "M",
+      "L",
+      "XL"
+    ],
+    "rating": 4.1,
+    "reviewCount": 82,
+    "description": "A fitted mermaid skirt in a crisp white base with a hand-painted-style pink floral placement print at the hem.",
+    "features": [
+      "Fitted mermaid silhouette",
+      "Placement floral print",
+      "Flared flounce hem",
+      "Concealed back zip"
+    ],
+    "tags": [
+      "skirts",
+      "daywear",
+      "new"
+    ],
+    "isNew": true,
+    "inStock": true,
+    "imageBg": "#c7c5c5"
+  },
+  {
+    "id": 17,
+    "slug": "ruched-floral-mermaid-skirt",
+    "name": "Ruched Floral Mermaid Skirt",
+    "brand": "Effor",
+    "categorySlug": "skirts",
+    "price": 128,
+    "currency": "USD",
+    "images": [
+      "/images/products/skirt6.jpg"
+    ],
+    "colors": [
+      {
+        "name": "Taupe Floral",
+        "hex": "#cdbfa8"
+      }
+    ],
+    "sizes": [
+      "XS",
+      "S",
+      "M",
+      "L",
+      "XL"
+    ],
+    "rating": 4.2,
+    "reviewCount": 318,
+    "description": "A floral-print mermaid skirt with ruched drawstring sides at the waist for an adjustable, sculpted fit.",
+    "features": [
+      "All-over floral print",
+      "Ruched drawstring waist",
+      "Fitted through the hip",
+      "Flared mermaid hem"
+    ],
+    "tags": [
+      "skirts",
+      "daywear"
+    ],
+    "isNew": false,
+    "inStock": true,
+    "imageBg": "#ffffff"
+  },
+  {
+    "id": 18,
+    "slug": "a-line-denim-maxi-skirt",
+    "name": "A-Line Denim Maxi Skirt",
+    "brand": "Effor",
+    "categorySlug": "skirts",
+    "price": 88,
+    "currency": "USD",
+    "images": [
+      "/images/products/skirt7.jpg"
+    ],
+    "colors": [
+      {
+        "name": "Indigo Wash",
+        "hex": "#4a5a72"
+      }
+    ],
+    "sizes": [
+      "XS",
+      "S",
+      "M",
+      "L",
+      "XL"
+    ],
+    "rating": 4.8,
+    "reviewCount": 200,
+    "description": "A rigid denim maxi skirt in a faded indigo wash with classic five-pocket styling and a clean A-line drape.",
+    "features": [
+      "Rigid cotton denim",
+      "Five-pocket styling",
+      "A-line silhouette",
+      "Faded indigo wash"
+    ],
+    "tags": [
+      "skirts",
+      "denim",
+      "bestseller"
+    ],
+    "isNew": false,
+    "inStock": true,
+    "imageBg": "#e8e8e8"
+  },
+  {
+    "id": 19,
+    "slug": "tiered-cotton-maxi-skirt",
+    "name": "Tiered Cotton Maxi Skirt",
+    "brand": "Effor",
+    "categorySlug": "skirts",
+    "price": 78,
+    "currency": "USD",
+    "images": [
+      "/images/products/skirt8.jpg"
+    ],
+    "colors": [
+      {
+        "name": "White",
+        "hex": "#f7f5f2"
+      }
+    ],
+    "sizes": [
+      "XS",
+      "S",
+      "M",
+      "L",
+      "XL"
+    ],
+    "rating": 3.9,
+    "reviewCount": 107,
+    "description": "A relaxed cotton maxi skirt built from tiered panels with an elasticated waist for easy everyday wear.",
+    "features": [
+      "Tiered panel construction",
+      "Elasticated waistband",
+      "Lightweight cotton",
+      "Maxi length"
+    ],
+    "tags": [
+      "skirts",
+      "daywear",
+      "summer"
+    ],
+    "isNew": false,
+    "inStock": true,
+    "imageBg": "#b0a8a6"
+  },
+  {
+    "id": 20,
+    "slug": "eyelet-a-line-midi-skirt",
+    "name": "Eyelet A-Line Midi Skirt",
+    "brand": "Effor",
+    "categorySlug": "skirts",
+    "price": 84,
+    "currency": "USD",
+    "images": [
+      "/images/products/skirt9.jpg"
+    ],
+    "colors": [
+      {
+        "name": "White",
+        "hex": "#f7f5f2"
+      }
+    ],
+    "sizes": [
+      "XS",
+      "S",
+      "M",
+      "L",
+      "XL"
+    ],
+    "rating": 4.2,
+    "reviewCount": 349,
+    "description": "A broderie eyelet midi skirt with a fitted ruched waistband and self-tie side ties over a full A-line skirt.",
+    "features": [
+      "All-over eyelet embroidery",
+      "Ruched fitted waistband",
+      "Self-tie side ties",
+      "Full A-line skirt"
+    ],
+    "tags": [
+      "skirts",
+      "daywear",
+      "new"
+    ],
+    "isNew": true,
+    "inStock": true,
+    "imageBg": "#9e9d9e"
+  },
+  {
+    "id": 21,
+    "slug": "satin-high-low-wrap-skirt",
+    "name": "Satin High-Low Wrap Skirt",
+    "brand": "Effor",
+    "categorySlug": "skirts",
+    "price": 168,
+    "currency": "USD",
+    "images": [
+      "/images/products/dress11.jpg"
+    ],
+    "colors": [
+      {
+        "name": "Champagne",
+        "hex": "#e8ddc9"
+      }
+    ],
+    "sizes": [
+      "XS",
+      "S",
+      "M",
+      "L",
+      "XL"
+    ],
+    "rating": 4.5,
+    "reviewCount": 405,
+    "description": "A liquid satin maxi skirt with a wrapped, layered drape that falls into a dramatic high-low hem and soft train.",
+    "features": [
+      "Liquid satin fabric",
+      "Wrapped layered drape",
+      "Dramatic high-low hem",
+      "Soft floor-sweeping train"
+    ],
+    "tags": [
+      "skirts",
+      "evening"
+    ],
+    "isNew": false,
+    "inStock": true,
+    "imageBg": "#ffffff"
+  },
+  {
+    "id": 22,
+    "slug": "flared-bootcut-jeans",
+    "name": "Flared Bootcut Jeans",
+    "brand": "Effor",
+    "categorySlug": "trousers-jeans",
+    "price": 98,
+    "currency": "USD",
+    "images": [
+      "/images/products/trouser1.jpg"
+    ],
+    "colors": [
+      {
+        "name": "Medium Wash",
+        "hex": "#5b7292"
+      }
+    ],
+    "sizes": [
+      "XS",
+      "S",
+      "M",
+      "L",
+      "XL"
+    ],
+    "rating": 4.7,
+    "reviewCount": 172,
+    "description": "Classic mid-rise denim with a subtle fade through the thigh and a flared bootcut leg that skims over shoes.",
+    "features": [
+      "Mid-rise waist",
+      "Flared bootcut leg",
+      "Whiskered fade detailing",
+      "Five-pocket styling"
+    ],
+    "tags": [
+      "trousers",
+      "denim",
+      "bestseller"
+    ],
+    "isNew": false,
+    "inStock": true,
+    "imageBg": "#fefefe"
+  },
+  {
+    "id": 23,
+    "slug": "wide-leg-high-rise-jeans",
+    "name": "Wide-Leg High-Rise Jeans",
+    "brand": "Effor",
+    "categorySlug": "trousers-jeans",
+    "price": 108,
+    "compareAtPrice": 128,
+    "currency": "USD",
+    "images": [
+      "/images/products/trouser2.jpg"
+    ],
+    "colors": [
+      {
+        "name": "Grey Wash",
+        "hex": "#6b7280"
+      }
+    ],
+    "sizes": [
+      "XS",
+      "S",
+      "M",
+      "L",
+      "XL"
+    ],
+    "rating": 4.4,
+    "reviewCount": 322,
+    "description": "High-rise wide-leg denim in a soft grey-blue wash, cut fuller through the leg for a relaxed, dropped drape.",
+    "features": [
+      "High-rise waist",
+      "Wide-leg silhouette",
+      "Soft grey-blue wash",
+      "Five-pocket styling"
+    ],
+    "tags": [
+      "trousers",
+      "denim",
+      "sale"
+    ],
+    "isNew": false,
+    "inStock": true,
+    "imageBg": "#ffffff"
+  },
+  {
+    "id": 24,
+    "slug": "leopard-trim-wide-leg-trousers",
+    "name": "Leopard-Trim Wide-Leg Trousers",
+    "brand": "Effor",
+    "categorySlug": "trousers-jeans",
+    "price": 118,
+    "currency": "USD",
+    "images": [
+      "/images/products/trouser3.jpg"
+    ],
+    "colors": [
+      {
+        "name": "Charcoal",
+        "hex": "#3d3d3d"
+      }
+    ],
+    "sizes": [
+      "XS",
+      "S",
+      "M",
+      "L",
+      "XL"
+    ],
+    "rating": 3.9,
+    "reviewCount": 142,
+    "description": "Wide-leg trousers finished with a leopard-print tie belt and matching cuffed hem for a directional twist on tailoring.",
+    "features": [
+      "Wide-leg silhouette",
+      "Leopard-print tie belt",
+      "Contrast cuffed hem",
+      "Pleated front"
+    ],
+    "tags": [
+      "trousers",
+      "statement",
+      "new"
+    ],
+    "isNew": true,
+    "inStock": true,
+    "imageBg": "#fefefe"
+  },
+  {
+    "id": 25,
+    "slug": "crossover-waist-wide-leg-trousers",
+    "name": "Crossover-Waist Wide-Leg Trousers",
+    "brand": "Effor",
+    "categorySlug": "trousers-jeans",
+    "price": 128,
+    "currency": "USD",
+    "images": [
+      "/images/products/trouser4.jpg"
+    ],
+    "colors": [
+      {
+        "name": "Chocolate",
+        "hex": "#4a352a"
+      }
+    ],
+    "sizes": [
+      "XS",
+      "S",
+      "M",
+      "L",
+      "XL"
+    ],
+    "rating": 4.7,
+    "reviewCount": 417,
+    "description": "Wide-leg trousers with a wrapped crossover waistband that adds a soft, draped detail above a clean tailored leg.",
+    "features": [
+      "Crossover wrap waistband",
+      "High-rise fit",
+      "Wide-leg silhouette",
+      "Concealed back zip"
+    ],
+    "tags": [
+      "trousers",
+      "workwear",
+      "bestseller"
+    ],
+    "isNew": false,
+    "inStock": true,
+    "imageBg": "#efefef"
+  },
+  {
+    "id": 26,
+    "slug": "draped-wrap-panel-trousers",
+    "name": "Draped Wrap-Panel Trousers",
+    "brand": "Effor",
+    "categorySlug": "trousers-jeans",
+    "price": 118,
+    "currency": "USD",
+    "images": [
+      "/images/products/trouser5.jpg"
+    ],
+    "colors": [
+      {
+        "name": "Stone",
+        "hex": "#c9bfae"
+      }
+    ],
+    "sizes": [
+      "XS",
+      "S",
+      "M",
+      "L",
+      "XL"
+    ],
+    "rating": 4.3,
+    "reviewCount": 494,
+    "description": "Tailored wide-leg trousers finished with a draped wrap panel at the waist for a soft, sculpted front.",
+    "features": [
+      "Draped wrap waist panel",
+      "High-rise fit",
+      "Wide-leg silhouette",
+      "Pressed center crease"
+    ],
+    "tags": [
+      "trousers",
+      "workwear"
+    ],
+    "isNew": false,
+    "inStock": true,
+    "imageBg": "#f7f8f8"
+  },
+  {
+    "id": 27,
+    "slug": "ruffle-overlay-flared-trousers",
+    "name": "Ruffle-Overlay Flared Trousers",
+    "brand": "Effor",
+    "categorySlug": "trousers-jeans",
+    "price": 138,
+    "currency": "USD",
+    "images": [
+      "/images/products/trouser6.jpg"
+    ],
+    "colors": [
+      {
+        "name": "Slate Grey",
+        "hex": "#4b5259"
+      }
+    ],
+    "sizes": [
+      "XS",
+      "S",
+      "M",
+      "L",
+      "XL"
+    ],
+    "rating": 3.9,
+    "reviewCount": 82,
+    "description": "Flared trousers with an attached asymmetric ruffle overlay at the hip and a zip-front waist for a sculptural, directional look.",
+    "features": [
+      "Attached asymmetric ruffle overlay",
+      "Flared leg",
+      "Zip-front waist",
+      "Fitted through the hip"
+    ],
+    "tags": [
+      "trousers",
+      "statement"
+    ],
+    "isNew": false,
+    "inStock": false,
+    "imageBg": "#dee3dd"
+  },
+  {
+    "id": 28,
+    "slug": "lace-flared-trousers",
+    "name": "Lace Flared Trousers",
+    "brand": "Effor",
+    "categorySlug": "trousers-jeans",
+    "price": 128,
+    "currency": "USD",
+    "images": [
+      "/images/products/trouser7.jpg"
+    ],
+    "colors": [
+      {
+        "name": "Ivory",
+        "hex": "#f5f0e6"
+      }
+    ],
+    "sizes": [
+      "XS",
+      "S",
+      "M",
+      "L",
+      "XL"
+    ],
+    "rating": 4.3,
+    "reviewCount": 46,
+    "description": "All-over lace flared trousers with a draped ruffle side panel at the waist, dressy enough to replace a skirt.",
+    "features": [
+      "All-over lace fabric",
+      "Draped ruffle waist panel",
+      "Flared leg",
+      "Fully lined"
+    ],
+    "tags": [
+      "trousers",
+      "occasion",
+      "new"
+    ],
+    "isNew": true,
+    "inStock": true,
+    "imageBg": "#bbbbbb"
+  },
+  {
+    "id": 29,
+    "slug": "ruched-high-waist-flared-pants",
+    "name": "Ruched High-Waist Flared Pants",
+    "brand": "Effor",
+    "categorySlug": "trousers-jeans",
+    "price": 98,
+    "currency": "USD",
+    "images": [
+      "/images/products/trouser8.jpg"
+    ],
+    "colors": [
+      {
+        "name": "Black",
+        "hex": "#0d0d0d"
+      }
+    ],
+    "sizes": [
+      "XS",
+      "S",
+      "M",
+      "L",
+      "XL"
+    ],
+    "rating": 4.1,
+    "reviewCount": 410,
+    "description": "High-waist flared pants with a ruched drawstring waistband that can be cinched for a customized fit.",
+    "features": [
+      "Ruched drawstring waistband",
+      "High-rise fit",
+      "Flared leg",
+      "Stretch jersey fabric"
+    ],
+    "tags": [
+      "trousers",
+      "bestseller"
+    ],
+    "isNew": false,
+    "inStock": true,
+    "imageBg": "#e2e4e2"
+  },
+  {
+    "id": 30,
+    "slug": "ruched-v-neck-blouse",
+    "name": "Ruched V-Neck Blouse",
+    "brand": "Effor",
+    "categorySlug": "shirts",
+    "price": 68,
+    "currency": "USD",
+    "images": [
+      "/images/products/shirt.jpg"
+    ],
+    "colors": [
+      {
+        "name": "White",
+        "hex": "#f7f5f2"
+      }
+    ],
+    "sizes": [
+      "XS",
+      "S",
+      "M",
+      "L",
+      "XL"
+    ],
+    "rating": 4.8,
+    "reviewCount": 20,
+    "description": "A fitted button-front blouse with a ruched V-neck placket and softly puffed shoulders for a polished silhouette.",
+    "features": [
+      "Ruched V-neck placket",
+      "Puffed shoulder seam",
+      "Fitted waist",
+      "Classic point collar"
+    ],
+    "tags": [
+      "shirts",
+      "workwear",
+      "bestseller"
+    ],
+    "isNew": false,
+    "inStock": true,
+    "imageBg": "#b7b6b4"
+  },
+  {
+    "id": 31,
+    "slug": "faux-fur-trim-off-shoulder-top",
+    "name": "Faux Fur-Trim Off-Shoulder Top",
+    "brand": "Effor",
+    "categorySlug": "shirts",
+    "price": 88,
+    "currency": "USD",
+    "images": [
+      "/images/products/shirt2.jpg"
+    ],
+    "colors": [
+      {
+        "name": "Ivory",
+        "hex": "#f5f0e6"
+      }
+    ],
+    "sizes": [
+      "XS",
+      "S",
+      "M",
+      "L",
+      "XL"
+    ],
+    "rating": 4.5,
+    "reviewCount": 83,
+    "description": "A fitted off-shoulder top finished with a plush faux-fur fold-over collar and long bell sleeves.",
+    "features": [
+      "Faux-fur fold-over collar",
+      "Off-shoulder neckline",
+      "Fitted, ruched bodice",
+      "Long bell sleeves"
+    ],
+    "tags": [
+      "shirts",
+      "winter",
+      "new"
+    ],
+    "isNew": true,
+    "inStock": true,
+    "imageBg": "#ffffff"
+  },
+  {
+    "id": 32,
+    "slug": "shaggy-faux-fur-jacket",
+    "name": "Shaggy Faux Fur Jacket",
+    "brand": "Effor",
+    "categorySlug": "shirts",
+    "price": 168,
+    "currency": "USD",
+    "images": [
+      "/images/products/shirt3.jpg"
+    ],
+    "colors": [
+      {
+        "name": "Taupe",
+        "hex": "#a89886"
+      }
+    ],
+    "sizes": [
+      "XS",
+      "S",
+      "M",
+      "L",
+      "XL"
+    ],
+    "rating": 4,
+    "reviewCount": 367,
+    "description": "A cropped shaggy faux-fur jacket with a dramatic shawl collar — the statement layer for cold-weather nights out.",
+    "features": [
+      "Shaggy faux-fur construction",
+      "Dramatic shawl collar",
+      "Cropped fit",
+      "Hook-and-eye front closure"
+    ],
+    "tags": [
+      "shirts",
+      "winter",
+      "statement"
+    ],
+    "isNew": false,
+    "inStock": false,
+    "imageBg": "#f6f6f6"
+  },
+  {
+    "id": 33,
+    "slug": "lace-off-shoulder-peplum-top",
+    "name": "Lace Off-Shoulder Peplum Top",
+    "brand": "Effor",
+    "categorySlug": "shirts",
+    "price": 78,
+    "currency": "USD",
+    "images": [
+      "/images/products/shirt4.jpg"
+    ],
+    "colors": [
+      {
+        "name": "Ivory",
+        "hex": "#f5f0e6"
+      }
+    ],
+    "sizes": [
+      "XS",
+      "S",
+      "M",
+      "L",
+      "XL"
+    ],
+    "rating": 3.8,
+    "reviewCount": 108,
+    "description": "An off-shoulder lace top with a fitted peplum waist and an asymmetric ruffle cascading down one side.",
+    "features": [
+      "All-over lace fabric",
+      "Off-shoulder neckline",
+      "Fitted peplum waist",
+      "Asymmetric cascading ruffle"
+    ],
+    "tags": [
+      "shirts",
+      "occasion"
+    ],
+    "isNew": false,
+    "inStock": true,
+    "imageBg": "#c9c7c8"
+  },
+  {
+    "id": 34,
+    "slug": "wrap-top-with-handkerchief-sleeves",
+    "name": "Wrap Top with Handkerchief Sleeves",
+    "brand": "Effor",
+    "categorySlug": "shirts",
+    "price": 74,
+    "currency": "USD",
+    "images": [
+      "/images/products/shirt5.jpg"
+    ],
+    "colors": [
+      {
+        "name": "Olive",
+        "hex": "#8b8c5a"
+      }
+    ],
+    "sizes": [
+      "XS",
+      "S",
+      "M",
+      "L",
+      "XL"
+    ],
+    "rating": 4.1,
+    "reviewCount": 210,
+    "description": "A wrap-front top in a ribbed knit with dramatic handkerchief sleeves and a self-tie waist for a fitted, asymmetric hem.",
+    "features": [
+      "Wrap front with self-tie waist",
+      "Dramatic handkerchief sleeves",
+      "Ribbed knit fabric",
+      "Asymmetric hem"
+    ],
+    "tags": [
+      "shirts",
+      "statement"
+    ],
+    "isNew": false,
+    "inStock": true,
+    "imageBg": "#efefee"
+  },
+  {
+    "id": 35,
+    "slug": "lace-hem-satin-blouse",
+    "name": "Lace-Hem Satin Blouse",
+    "brand": "Effor",
+    "categorySlug": "shirts",
+    "price": 84,
+    "currency": "USD",
+    "images": [
+      "/images/products/shirt6.jpg"
+    ],
+    "colors": [
+      {
+        "name": "Black",
+        "hex": "#0d0d0d"
+      }
+    ],
+    "sizes": [
+      "XS",
+      "S",
+      "M",
+      "L",
+      "XL"
+    ],
+    "rating": 3.8,
+    "reviewCount": 279,
+    "description": "A satin blouse with long bell sleeves and a scalloped lace hem that falls asymmetrically at the waist.",
+    "features": [
+      "Fluid satin fabric",
+      "Scalloped lace hem",
+      "Long bell sleeves",
+      "Asymmetric hemline"
+    ],
+    "tags": [
+      "shirts",
+      "evening",
+      "new"
+    ],
+    "isNew": true,
+    "inStock": true,
+    "imageBg": "#e5e5e5"
+  },
+  {
+    "id": 36,
+    "slug": "asymmetric-eyelet-top",
+    "name": "Asymmetric Eyelet Top",
+    "brand": "Effor",
+    "categorySlug": "shirts",
+    "price": 68,
+    "currency": "USD",
+    "images": [
+      "/images/products/shirt7.jpg"
+    ],
+    "colors": [
+      {
+        "name": "Ivory",
+        "hex": "#f5f0e6"
+      }
+    ],
+    "sizes": [
+      "XS",
+      "S",
+      "M",
+      "L",
+      "XL"
+    ],
+    "rating": 3.9,
+    "reviewCount": 203,
+    "description": "A fitted eyelet-textured top with an asymmetric off-shoulder neckline finished with a polished ring detail.",
+    "features": [
+      "All-over eyelet texture",
+      "Asymmetric off-shoulder neckline",
+      "Polished ring hardware",
+      "Fitted, ruched waist"
+    ],
+    "tags": [
+      "shirts",
+      "daywear"
+    ],
+    "isNew": false,
+    "inStock": true,
+    "imageBg": "#bdbdbb"
+  },
+  {
+    "id": 37,
+    "slug": "corset-bodice-pinstripe-top",
+    "name": "Corset-Bodice Pinstripe Top",
+    "brand": "Effor",
+    "categorySlug": "shirts",
+    "price": 88,
+    "currency": "USD",
+    "images": [
+      "/images/products/shirt8.jpg"
+    ],
+    "colors": [
+      {
+        "name": "Black & White",
+        "hex": "#1a1a1a"
+      }
+    ],
+    "sizes": [
+      "XS",
+      "S",
+      "M",
+      "L",
+      "XL"
+    ],
+    "rating": 4.2,
+    "reviewCount": 436,
+    "description": "A pinstripe shirt reimagined with a boned black corset bodice and a sweetheart collar for a tailored, structured fit.",
+    "features": [
+      "Boned corset bodice",
+      "Pinstripe shirting sleeves",
+      "Sweetheart collar",
+      "Puffed shoulder seam"
+    ],
+    "tags": [
+      "shirts",
+      "statement",
+      "bestseller"
+    ],
+    "isNew": false,
+    "inStock": true,
+    "imageBg": "#b4b7b4"
+  },
+  {
+    "id": 38,
+    "slug": "pinstripe-wrap-blouse",
+    "name": "Pinstripe Wrap Blouse",
+    "brand": "Effor",
+    "categorySlug": "shirts",
+    "price": 74,
+    "currency": "USD",
+    "images": [
+      "/images/products/shirt9.jpg"
+    ],
+    "colors": [
+      {
+        "name": "Pinstripe",
+        "hex": "#2b2f36"
+      }
+    ],
+    "sizes": [
+      "XS",
+      "S",
+      "M",
+      "L",
+      "XL"
+    ],
+    "rating": 4.5,
+    "reviewCount": 209,
+    "description": "A classic pinstripe wrap blouse with a collared V-neck and a self-tie waist for a fitted, adjustable silhouette.",
+    "features": [
+      "Wrap front with self-tie waist",
+      "Collared V-neck",
+      "Pinstripe cotton blend",
+      "Long bell sleeves"
+    ],
+    "tags": [
+      "shirts",
+      "workwear"
+    ],
+    "isNew": false,
+    "inStock": true,
+    "imageBg": "#e1dee3"
+  },
+  {
+    "id": 39,
+    "slug": "one-shoulder-corset-waist-top",
+    "name": "One-Shoulder Corset-Waist Top",
+    "brand": "Effor",
+    "categorySlug": "shirts",
+    "price": 68,
+    "currency": "USD",
+    "images": [
+      "/images/products/shirt10.jpg"
+    ],
+    "colors": [
+      {
+        "name": "Heather Grey",
+        "hex": "#9a9a9a"
+      }
+    ],
+    "sizes": [
+      "XS",
+      "S",
+      "M",
+      "L",
+      "XL"
+    ],
+    "rating": 4.5,
+    "reviewCount": 444,
+    "description": "A relaxed one-shoulder top with a blouson bodice and a boned corset waist panel for definition at the middle.",
+    "features": [
+      "Asymmetric one-shoulder neckline",
+      "Blouson bodice",
+      "Boned corset waist panel",
+      "Batwing sleeve"
+    ],
+    "tags": [
+      "shirts",
+      "new"
+    ],
+    "isNew": true,
+    "inStock": true,
+    "imageBg": "#efefef"
+  },
+  {
+    "id": 40,
+    "slug": "gingham-bow-shoulder-top",
+    "name": "Gingham Bow-Shoulder Top",
+    "brand": "Effor",
+    "categorySlug": "shirts",
+    "price": 64,
+    "currency": "USD",
+    "images": [
+      "/images/products/shirt11.jpg"
+    ],
+    "colors": [
+      {
+        "name": "Pink Gingham",
+        "hex": "#e8b9c4"
+      }
+    ],
+    "sizes": [
+      "XS",
+      "S",
+      "M",
+      "L",
+      "XL"
+    ],
+    "rating": 5,
+    "reviewCount": 458,
+    "description": "A fitted gingham top with contrast bow ties at each shoulder and a ruched waist for a playful, feminine fit.",
+    "features": [
+      "Gingham check print",
+      "Contrast bow-tie shoulders",
+      "Ruched waist",
+      "Long bell sleeves"
+    ],
+    "tags": [
+      "shirts",
+      "daywear"
+    ],
+    "isNew": false,
+    "inStock": true,
+    "imageBg": "#e4e4e5"
+  },
+  {
+    "id": 41,
+    "slug": "flower-pearl-drop-earrings",
+    "name": "Flower & Pearl Drop Earrings",
+    "brand": "Effor",
+    "categorySlug": "accessories",
+    "price": 58,
+    "currency": "USD",
+    "images": [
+      "/images/products/accessories.jpg"
+    ],
+    "colors": [
+      {
+        "name": "Ivory",
+        "hex": "#f5f0e6"
+      }
+    ],
+    "sizes": [
+      "One Size"
+    ],
+    "rating": 4.6,
+    "reviewCount": 347,
+    "description": "A carved mother-of-pearl flower stud suspending a baroque faux-pearl drop, finished with polished silver-tone hardware.",
+    "features": [
+      "Carved mother-of-pearl flower stud",
+      "Baroque faux-pearl drop",
+      "Silver-tone hardware",
+      "Post-back closure"
+    ],
+    "tags": [
+      "accessories",
+      "jewelry",
+      "bestseller"
+    ],
+    "isNew": false,
+    "inStock": true,
+    "imageBg": "#ffffff"
+  },
+  {
+    "id": 42,
+    "slug": "triple-strand-pearl-choker",
+    "name": "Triple-Strand Pearl Choker",
+    "brand": "Effor",
+    "categorySlug": "accessories",
+    "price": 148,
+    "currency": "USD",
+    "images": [
+      "/images/products/accessories1.jpg"
+    ],
+    "colors": [
+      {
+        "name": "White & Gold",
+        "hex": "#e9e2c8"
+      }
+    ],
+    "sizes": [
+      "One Size"
+    ],
+    "rating": 4.4,
+    "reviewCount": 271,
+    "description": "A three-row pearl choker finished with an ornate pavé clasp at the center front — a statement piece for evening.",
+    "features": [
+      "Three-row pearl strands",
+      "Ornate pavé center clasp",
+      "Adjustable choker length",
+      "Gold-tone hardware"
+    ],
+    "tags": [
+      "accessories",
+      "jewelry",
+      "evening"
+    ],
+    "isNew": false,
+    "inStock": true,
+    "imageBg": "#f3efed"
+  },
+  {
+    "id": 43,
+    "slug": "pearl-aquamarine-pendant-necklace",
+    "name": "Pearl & Aquamarine Pendant Necklace",
+    "brand": "Effor",
+    "categorySlug": "accessories",
+    "price": 168,
+    "currency": "USD",
+    "images": [
+      "/images/products/accessories2.jpg"
+    ],
+    "colors": [
+      {
+        "name": "White & Blue",
+        "hex": "#cfe0e6"
+      }
+    ],
+    "sizes": [
+      "One Size"
+    ],
+    "rating": 4.9,
+    "reviewCount": 479,
+    "description": "A double-strand pearl necklace centered on a pear-cut aquamarine-tone pendant framed in pavé stones.",
+    "features": [
+      "Double-strand pearl necklace",
+      "Pear-cut aquamarine-tone pendant",
+      "Pavé stone frame",
+      "Silver-tone hardware"
+    ],
+    "tags": [
+      "accessories",
+      "jewelry",
+      "evening",
+      "new"
+    ],
+    "isNew": true,
+    "inStock": true,
+    "imageBg": "#ffffff"
+  },
+  {
+    "id": 44,
+    "slug": "pear-drop-statement-necklace",
+    "name": "Pear-Drop Statement Necklace",
+    "brand": "Effor",
+    "categorySlug": "accessories",
+    "price": 178,
+    "currency": "USD",
+    "images": [
+      "/images/products/accessories3.jpg"
+    ],
+    "colors": [
+      {
+        "name": "Silver",
+        "hex": "#d9dadb"
+      }
+    ],
+    "sizes": [
+      "One Size"
+    ],
+    "rating": 4,
+    "reviewCount": 174,
+    "description": "A double-row pavé necklace with two pear-cut drops suspended at the center front for red-carpet sparkle.",
+    "features": [
+      "Double-row pavé chain",
+      "Two pear-cut center drops",
+      "Silver-tone hardware",
+      "Adjustable clasp"
+    ],
+    "tags": [
+      "accessories",
+      "jewelry",
+      "evening",
+      "bestseller"
+    ],
+    "isNew": false,
+    "inStock": true,
+    "imageBg": "#ffffff"
+  },
+  {
+    "id": 45,
+    "slug": "sculpted-flower-stud-earrings",
+    "name": "Sculpted Flower Stud Earrings",
+    "brand": "Effor",
+    "categorySlug": "accessories",
+    "price": 42,
+    "currency": "USD",
+    "images": [
+      "/images/products/accessories4.jpg"
+    ],
+    "colors": [
+      {
+        "name": "Gold",
+        "hex": "#c9a25a"
+      }
+    ],
+    "sizes": [
+      "One Size"
+    ],
+    "rating": 4.9,
+    "reviewCount": 476,
+    "description": "Bold sculpted flower stud earrings in a brushed gold-tone finish with a five-petal silhouette.",
+    "features": [
+      "Sculpted five-petal design",
+      "Brushed gold-tone finish",
+      "Lightweight metal construction",
+      "Post-back closure"
+    ],
+    "tags": [
+      "accessories",
+      "jewelry"
+    ],
+    "isNew": false,
+    "inStock": true,
+    "imageBg": "#ffffff"
+  },
+  {
+    "id": 46,
+    "slug": "pav-bow-pendant-necklace",
+    "name": "Pavé Bow Pendant Necklace",
+    "brand": "Effor",
+    "categorySlug": "accessories",
+    "price": 54,
+    "currency": "USD",
+    "images": [
+      "/images/products/accessories5.jpg"
+    ],
+    "colors": [
+      {
+        "name": "Silver",
+        "hex": "#d9dadb"
+      }
+    ],
+    "sizes": [
+      "One Size"
+    ],
+    "rating": 4.4,
+    "reviewCount": 449,
+    "description": "A delicate chain necklace with a pavé-set bow pendant for a feminine everyday layer.",
+    "features": [
+      "Pavé-set bow pendant",
+      "Delicate cable chain",
+      "Silver-tone hardware",
+      "Lobster clasp closure"
+    ],
+    "tags": [
+      "accessories",
+      "jewelry",
+      "new"
+    ],
+    "isNew": true,
+    "inStock": true,
+    "imageBg": "#f7f7f8"
+  },
+  {
+    "id": 47,
+    "slug": "bow-heart-drop-earrings",
+    "name": "Bow & Heart Drop Earrings",
+    "brand": "Effor",
+    "categorySlug": "accessories",
+    "price": 46,
+    "currency": "USD",
+    "images": [
+      "/images/products/accessories6.jpg"
+    ],
+    "colors": [
+      {
+        "name": "Silver",
+        "hex": "#d9dadb"
+      }
+    ],
+    "sizes": [
+      "One Size"
+    ],
+    "rating": 4.4,
+    "reviewCount": 411,
+    "description": "Sculptural bow stud earrings suspending a polished puffed-heart drop in a silver-tone finish.",
+    "features": [
+      "Sculptural bow stud",
+      "Polished puffed-heart drop",
+      "Silver-tone finish",
+      "Post-back closure"
+    ],
+    "tags": [
+      "accessories",
+      "jewelry"
+    ],
+    "isNew": false,
+    "inStock": true,
+    "imageBg": "#f5f5f5"
+  },
+  {
+    "id": 48,
+    "slug": "clover-motif-bracelet",
+    "name": "Clover Motif Bracelet",
+    "brand": "Effor",
+    "categorySlug": "accessories",
+    "price": 128,
+    "currency": "USD",
+    "images": [
+      "/images/products/accessories7.jpg"
+    ],
+    "colors": [
+      {
+        "name": "Gold & Pink",
+        "hex": "#e3c4bd"
+      }
+    ],
+    "sizes": [
+      "One Size"
+    ],
+    "rating": 4.3,
+    "reviewCount": 247,
+    "description": "A gold-tone chain bracelet set with five pink clover motifs for a signature, stackable layer.",
+    "features": [
+      "Five clover-motif charms",
+      "Gold-tone chain",
+      "Lobster clasp closure",
+      "Stacks well with other pieces"
+    ],
+    "tags": [
+      "accessories",
+      "jewelry",
+      "bestseller"
+    ],
+    "isNew": false,
+    "inStock": true,
+    "imageBg": "#ffffff"
+  },
+  {
+    "id": 49,
+    "slug": "pav-hinge-bangle",
+    "name": "Pavé Hinge Bangle",
+    "brand": "Effor",
+    "categorySlug": "accessories",
+    "price": 138,
+    "currency": "USD",
+    "images": [
+      "/images/products/accessories8.jpg"
+    ],
+    "colors": [
+      {
+        "name": "Gold",
+        "hex": "#c9a25a"
+      }
+    ],
+    "sizes": [
+      "One Size"
+    ],
+    "rating": 4.1,
+    "reviewCount": 441,
+    "description": "A sculptural gold-tone hinge bangle with a pavé-set overlap detail, designed to be worn solo or stacked.",
+    "features": [
+      "Sculptural hinge bangle",
+      "Pavé-set overlap detail",
+      "Gold-tone finish",
+      "Hinged for easy on/off"
+    ],
+    "tags": [
+      "accessories",
+      "jewelry",
+      "new"
+    ],
+    "isNew": true,
+    "inStock": true,
+    "imageBg": "#efedea"
+  },
+  {
+    "id": 50,
+    "slug": "coiled-pav-cuff",
+    "name": "Coiled Pavé Cuff",
+    "brand": "Effor",
+    "categorySlug": "accessories",
+    "price": 158,
+    "currency": "USD",
+    "images": [
+      "/images/products/accessories9.jpg"
+    ],
+    "colors": [
+      {
+        "name": "Gold",
+        "hex": "#c9a25a"
+      }
+    ],
+    "sizes": [
+      "One Size"
+    ],
+    "rating": 4.9,
+    "reviewCount": 458,
+    "description": "A coiled wrap cuff in gold-tone metal, fully paved with crystal stones for a sculptural, sinuous finish.",
+    "features": [
+      "Coiled wrap silhouette",
+      "Fully pavé-set crystal stones",
+      "Gold-tone finish",
+      "Open adjustable cuff"
+    ],
+    "tags": [
+      "accessories",
+      "jewelry",
+      "statement"
+    ],
+    "isNew": false,
+    "inStock": true,
+    "imageBg": "#ffffff"
+  },
+  {
+    "id": 51,
+    "slug": "beaded-wrap-bracelet-stack",
+    "name": "Beaded Wrap Bracelet Stack",
+    "brand": "Effor",
+    "categorySlug": "accessories",
+    "price": 48,
+    "currency": "USD",
+    "images": [
+      "/images/products/accessories10.jpg"
+    ],
+    "colors": [
+      {
+        "name": "Gold",
+        "hex": "#c9a25a"
+      }
+    ],
+    "sizes": [
+      "One Size"
+    ],
+    "rating": 4.2,
+    "reviewCount": 496,
+    "description": "A layered bracelet stack combining faceted beaded strands with a hammered gold-tone bangle.",
+    "features": [
+      "Faceted beaded strands",
+      "Hammered gold-tone bangle",
+      "Multi-strand wrap design",
+      "Toggle closure"
+    ],
+    "tags": [
+      "accessories",
+      "jewelry",
+      "bestseller"
+    ],
+    "isNew": false,
+    "inStock": true,
+    "imageBg": "#ffffff"
+  },
+  {
+    "id": 52,
+    "slug": "layered-coin-pendant-necklace",
+    "name": "Layered Coin Pendant Necklace",
+    "brand": "Effor",
+    "categorySlug": "accessories",
+    "price": 62,
+    "currency": "USD",
+    "images": [
+      "/images/products/accessories11.jpg"
+    ],
+    "colors": [
+      {
+        "name": "Gold",
+        "hex": "#c9a25a"
+      }
+    ],
+    "sizes": [
+      "One Size"
+    ],
+    "rating": 4,
+    "reviewCount": 449,
+    "description": "A double-layer chain necklace finished with two vintage-inspired coin pendants at different lengths.",
+    "features": [
+      "Double-layer chain design",
+      "Two coin pendants",
+      "Gold-tone finish",
+      "Lobster clasp closure"
+    ],
+    "tags": [
+      "accessories",
+      "jewelry",
+      "new"
+    ],
+    "isNew": true,
+    "inStock": true,
+    "imageBg": "#efe5cf"
+  }
+]
