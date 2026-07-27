@@ -1,4 +1,5 @@
-import { mockDelay } from './mockDelay'
+import { API } from '@/config/api.config'
+import { apiFetch } from '@/lib/apiClient'
 
 export interface ContactFormInput {
   name: string
@@ -7,16 +8,16 @@ export interface ContactFormInput {
   message: string
 }
 
-// TODO: Replace with POST /api/contact (see API.contact.sendMessage)
-// Request Payload: { name, email, subject, message }
-// Expected Response: { success: boolean }
-export async function sendContactMessage(_input: ContactFormInput): Promise<{ success: boolean }> {
-  return mockDelay({ success: true }, 500)
+export async function sendContactMessage(input: ContactFormInput): Promise<{ success: boolean }> {
+  return apiFetch<{ success: boolean }>(API.contact.sendMessage.endpoint, {
+    method: 'POST',
+    body: JSON.stringify(input),
+  })
 }
 
-// TODO: Replace with POST /api/newsletter/subscribe (see API.newsletter.subscribe)
-// Request Payload: { email: string }
-// Expected Response: { success: boolean }
-export async function subscribeToNewsletter(_email: string): Promise<{ success: boolean }> {
-  return mockDelay({ success: true }, 400)
+export async function subscribeToNewsletter(email: string): Promise<{ success: boolean }> {
+  return apiFetch<{ success: boolean }>(API.newsletter.subscribe.endpoint, {
+    method: 'POST',
+    body: JSON.stringify({ email }),
+  })
 }

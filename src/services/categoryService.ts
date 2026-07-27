@@ -1,17 +1,15 @@
 import type { Category } from '@/types'
-import categoriesData from '@/data/categories.json'
-import { mockDelay } from './mockDelay'
+import { API } from '@/config/api.config'
+import { apiFetch, withParams } from '@/lib/apiClient'
 
-const CATEGORIES = categoriesData as Category[]
-
-// TODO: Replace with GET /api/categories (see API.categories.getAll)
-// Expected Response: CategoryDto[]
 export async function getAllCategories(): Promise<Category[]> {
-  return mockDelay(CATEGORIES)
+  return apiFetch<Category[]>(API.categories.getAll.endpoint)
 }
 
-// TODO: Replace with GET /api/categories/{slug} (see API.categories.getBySlug)
-// Expected Response: CategoryDto
 export async function getCategoryBySlug(slug: string): Promise<Category | undefined> {
-  return mockDelay(CATEGORIES.find((c) => c.slug === slug))
+  try {
+    return await apiFetch<Category>(withParams(API.categories.getBySlug.endpoint, { slug }))
+  } catch {
+    return undefined
+  }
 }

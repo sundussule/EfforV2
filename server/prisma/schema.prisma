@@ -1,0 +1,184 @@
+// This is your Prisma schema file,
+// learn more about it in the docs: https://pris.ly/d/prisma-schema
+
+generator client {
+  provider = "prisma-client"
+  output   = "../src/generated/prisma"
+}
+
+datasource db {
+  provider = "sqlserver"
+}
+
+// SQL Server has no native array/JSON column type, so list fields
+// (images, colors, sizes, features, tags) are stored as JSON-encoded
+// strings and parsed/stringified in the service layer.
+
+model Category {
+  id          Int    @id @default(autoincrement())
+  slug        String @unique
+  name        String
+  description String @db.NVarChar(Max)
+  image       String
+
+  products Product[]
+
+  @@map("categories")
+}
+
+model Product {
+  id              Int      @id @default(autoincrement())
+  slug            String   @unique
+  name            String
+  brand           String
+  price           Decimal  @db.Decimal(10, 2)
+  compareAtPrice  Decimal? @db.Decimal(10, 2)
+  currency        String   @default("USD")
+  imagesJson      String   @db.NVarChar(Max)
+  imageBg         String
+  colorsJson      String   @db.NVarChar(Max)
+  sizesJson       String   @db.NVarChar(Max)
+  rating          Float    @default(0)
+  reviewCount     Int      @default(0)
+  description     String   @db.NVarChar(Max)
+  featuresJson    String   @db.NVarChar(Max)
+  tagsJson        String   @db.NVarChar(Max)
+  isNew           Boolean  @default(false)
+  inStock         Boolean  @default(true)
+  createdAt       DateTime @default(now())
+  updatedAt       DateTime @updatedAt
+
+  categoryId Int
+  category   Category @relation(fields: [categoryId], references: [id])
+
+  cartItems      CartItem[]
+  wishlistItems  WishlistItem[]
+  orderItems     OrderItem[]
+
+  @@map("products")
+}
+
+model User {
+  id           Int      @id @default(autoincrement())
+  firstName    String
+  lastName     String
+  email        String   @unique
+  passwordHash String
+  createdAt    DateTime @default(now())
+
+  cartItems     CartItem[]
+  wishlistItems WishlistItem[]
+  addresses     Address[]
+  orders        Order[]
+
+  @@map("users")
+}
+
+model CartItem {
+  id        Int    @id @default(autoincrement())
+  quantity  Int
+  size      String
+  color     String
+
+  userId    Int
+  user      User    @relation(fields: [userId], references: [id])
+  productId Int
+  product   Product @relation(fields: [productId], references: [id])
+
+  @@unique([userId, productId, size, color])
+  @@map("cart_items")
+}
+
+model WishlistItem {
+  id Int @id @default(autoincrement())
+
+  userId    Int
+  user      User    @relation(fields: [userId], references: [id])
+  productId Int
+  product   Product @relation(fields: [productId], references: [id])
+
+  @@unique([userId, productId])
+  @@map("wishlist_items")
+}
+
+model Address {
+  id         Int    @id @default(autoincrement())
+  fullName   String
+  line1      String
+  line2      String?
+  city       String
+  state      String
+  postalCode String
+  country    String
+  phone      String
+
+  userId Int
+  user   User @relation(fields: [userId], references: [id])
+
+  @@map("addresses")
+}
+
+// status is one of: "processing" | "shipped" | "delivered" (validated at the app layer;
+// SQL Server has no native enum support in Prisma).
+model Order {
+  id             String   @id
+  createdAt      DateTime @default(now())
+  status         String   @default("processing")
+  subtotal       Decimal  @db.Decimal(10, 2)
+  shipping       Decimal  @db.Decimal(10, 2)
+  tax            Decimal  @db.Decimal(10, 2)
+  total          Decimal  @db.Decimal(10, 2)
+  paymentMethod  String
+
+  shippingFullName   String
+  shippingLine1      String
+  shippingLine2      String?
+  shippingCity       String
+  shippingState      String
+  shippingPostalCode String
+  shippingCountry    String
+  shippingPhone      String
+
+  userId Int
+  user   User        @relation(fields: [userId], references: [id])
+  items  OrderItem[]
+
+  @@map("orders")
+}
+
+model OrderItem {
+  id       Int     @id @default(autoincrement())
+  name     String
+  image    String
+  imageBg  String
+  price    Decimal @db.Decimal(10, 2)
+  quantity Int
+  size     String
+  color    String
+
+  orderId   String
+  order     Order   @relation(fields: [orderId], references: [id])
+  productId Int
+  product   Product @relation(fields: [productId], references: [id])
+
+  @@map("order_items")
+}
+
+model ContactMessage {
+  id        Int      @id @default(autoincrement())
+  name      String
+  email     String
+  subject   String
+  message   String   @db.NVarChar(Max)
+  createdAt DateTime @default(now())
+
+  @@map("contact_messages")
+}
+
+model NewsletterSubscriber {
+  id        Int      @id @default(autoincrement())
+  email     String   @unique
+  createdAt DateTime @default(now())
+
+  @@map("newsletter_subscribers")
+}
