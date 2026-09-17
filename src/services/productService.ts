@@ -1,6 +1,68 @@
 import type { Product } from '@/types'
-import { API } from '@/config/api.config'
-import { apiFetch, withParams } from '@/lib/apiClient'
+
+function createMockProducts(): Product[] {
+  const items: Product[] = []
+  let id = 1
+
+  // Helper to ensure safe defaults for all fields expected by HomePage
+  const makeProduct = (
+    name: string,
+    slug: string,
+    price: number,
+    category: string,
+    imagePath: string,
+  ): Product =>
+    ({
+      id: String(id++),
+      name,
+      slug,
+      price,
+      category,
+      images: [imagePath],
+      image: imagePath,
+      description: 'High quality apparel crafted for comfort and daily style.',
+      inStock: true,
+      featured: true,
+      rating: 4.8,
+      reviewCount: 12,
+      sizes: ['S', 'M', 'L', 'XL'],
+      colors: ['Black', 'White'],
+      tags: [category.toLowerCase(), 'new', 'featured'],
+      createdAt: new Date().toISOString(),
+    } as unknown as Product)
+
+  // Accessories
+  items.push(makeProduct('Classic Leather Belt', 'classic-leather-belt', 35, 'Accessories', '/images/products/accessories.jpg'))
+  for (let i = 1; i <= 11; i++) {
+    items.push(makeProduct(`Accessory Item ${i}`, `accessory-item-${i}`, 20 + i * 5, 'Accessories', `/images/products/accessories${i}.jpg`))
+  }
+
+  // Dresses
+  for (let i = 1; i <= 11; i++) {
+    items.push(makeProduct(`Elegant Dress ${i}`, `elegant-dress-${i}`, 60 + i * 10, 'Dresses', `/images/products/dress${i}.jpg`))
+  }
+
+  // Shirts
+  items.push(makeProduct('Casual Cotton Shirt', 'casual-cotton-shirt', 40, 'Shirts', '/images/products/shirt.jpg'))
+  for (let i = 2; i <= 11; i++) {
+    items.push(makeProduct(`Tailored Shirt ${i}`, `tailored-shirt-${i}`, 35 + i * 5, 'Shirts', `/images/products/shirt${i}.jpg`))
+  }
+
+  // Skirts
+  items.push(makeProduct('Classic A-Line Skirt', 'classic-a-line-skirt', 45, 'Skirts', '/images/products/skirt.jpg'))
+  for (let i = 1; i <= 9; i++) {
+    items.push(makeProduct(`Modern Skirt ${i}`, `modern-skirt-${i}`, 30 + i * 6, 'Skirts', `/images/products/skirt${i}.jpg`))
+  }
+
+  // Trousers & Jeans
+  for (let i = 1; i <= 8; i++) {
+    items.push(makeProduct(`Denim & Trousers ${i}`, `denim-trouser-${i}`, 50 + i * 8, 'Trousers & Jeans', `/images/products/trouser${i}.jpg`))
+  }
+
+  return items
+}
+
+const productsList: Product[] = createMockProducts()
 
 export interface ProductQuery {
   category?: string
@@ -10,37 +72,53 @@ export interface ProductQuery {
   q?: string
 }
 
-function toQueryString(query: object): string {
-  const params = new URLSearchParams()
-  for (const [key, value] of Object.entries(query)) {
-    if (value !== undefined) params.set(key, String(value))
-  }
-  const str = params.toString()
-  return str ? `?${str}` : ''
-}
-
 export async function getAllProducts(query: ProductQuery = {}): Promise<Product[]> {
-  return apiFetch<Product[]>(`${API.products.getAll.endpoint}${toQueryString(query)}`)
+  let filtered = [...productsList]
+
+  if (query.category && query.category.toLowerCase() !== 'all') {
+    const target = query.category.toLowerCase().replace(/[^a-z]/g, '')
+    filtered = filtered.filter((p) => {
+      const pCat = (p.category || '').toLowerCase().replace(/[^a-z]/g, '')
+      return pCat.includes(target) || target.includes(pCat)
+    })
+  }
+
+  if (query.minPrice !== undefined) {
+    filtered = filtered.filter((p) => p.price >= query.minPrice!)
+  }
+  if (query.maxPrice !== undefined) {
+    filtered = filtered.filter((p) => p.price <= query.maxPrice!)
+  }
+  if (query.q) {
+    const term = query.q.toLowerCase()
+    filtered = filtered.filter((p) => (p.name || '').toLowerCase().includes(term))
+  }
+
+  if (query.sort === 'price-asc') {
+    filtered.sort((a, b) => a.price - b.price)
+  } else if (query.sort === 'price-desc') {
+    filtered.sort((a, b) => b.price - a.price)
+  }
+
+  return filtered
 }
 
 export async function getProductBySlug(slug: string): Promise<Product | undefined> {
-  try {
-    return await apiFetch<Product>(withParams(API.products.getBySlug.endpoint, { slug }))
-  } catch {
-    return undefined
-  }
+  return productsList.find((p) => p.slug === slug || String(p.id) === slug)
 }
 
 export async function searchProducts(term: string): Promise<Product[]> {
-  return apiFetch<Product[]>(`${API.products.search.endpoint}${toQueryString({ q: term })}`)
+  const lower = term.toLowerCase()
+  return productsList.filter((p) => (p.name || '').toLowerCase().includes(lower))
 }
 
 export async function getRelatedProducts(slug: string): Promise<Product[]> {
-  return apiFetch<Product[]>(withParams(API.products.getRelated.endpoint, { slug }))
+  const current = productsList.find((p) => p.slug === slug || String(p.id) === slug)
+  if (!current) return productsList.slice(0, 4)
+  return productsList.filter((p) => p.id !== current.id).slice(0, 4)
 }
 
-// No dedicated batch-by-id endpoint; filtered client-side as noted in api.config.ts.
-export async function getProductsByIds(ids: number[]): Promise<Product[]> {
-  const all = await getAllProducts()
-  return all.filter((p) => ids.includes(p.id))
+export async function getProductsByIds(ids: (string | number)[]): Promise<Product[]> {
+  const strIds = ids.map(String)
+  return productsList.filter((p) => strIds.includes(String(p.id)))
 }

@@ -1,6 +1,3 @@
-import { API } from '@/config/api.config'
-import { apiFetch } from '@/lib/apiClient'
-
 export interface ContactFormInput {
   name: string
   email: string
@@ -8,16 +5,14 @@ export interface ContactFormInput {
   message: string
 }
 
-export async function sendContactMessage(input: ContactFormInput): Promise<{ success: boolean }> {
-  return apiFetch<{ success: boolean }>(API.contact.sendMessage.endpoint, {
-    method: 'POST',
-    body: JSON.stringify(input),
-  })
+export async function sendContactMessage(_input: ContactFormInput): Promise<{ success: boolean }> {
+  // Simulate network delay
+  await new Promise((resolve) => setTimeout(resolve, 300))
+  return { success: true }
 }
 
-export async function subscribeToNewsletter(email: string): Promise<{ success: boolean }> {
-  return apiFetch<{ success: boolean }>(API.newsletter.subscribe.endpoint, {
-    method: 'POST',
-    body: JSON.stringify({ email }),
-  })
+export async function subscribeToNewsletter(_email: string): Promise<{ success: boolean }> {
+  // Simulate network delay
+  await new Promise((resolve) => setTimeout(resolve, 300))
+  return { success: true }
 }

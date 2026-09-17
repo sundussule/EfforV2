@@ -1,12 +1,9 @@
 import type { Address, CartLineDetailed, Order } from '@/types'
-import { API } from '@/config/api.config'
-import { apiFetch, withParams } from '@/lib/apiClient'
 
 const SHIPPING_FLAT_RATE = 8
 const FREE_SHIPPING_THRESHOLD = 150
 const TAX_RATE = 0.08
 
-/** Client-side preview only — the backend recomputes authoritative totals on order creation. */
 export function calculateOrderTotals(subtotal: number) {
   const shipping = subtotal === 0 || subtotal >= FREE_SHIPPING_THRESHOLD ? 0 : SHIPPING_FLAT_RATE
   const tax = Math.round(subtotal * TAX_RATE * 100) / 100
@@ -14,34 +11,52 @@ export function calculateOrderTotals(subtotal: number) {
   return { shipping, tax, total }
 }
 
+const ORDERS_KEY = 'effor_mock_orders'
+
+function getStoredOrders(): Order[] {
+  const raw = localStorage.getItem(ORDERS_KEY)
+  return raw ? JSON.parse(raw) : []
+}
+
 export async function createOrder(
   lines: CartLineDetailed[],
   shippingAddress: Address,
   paymentMethod: string,
 ): Promise<Order> {
-  return apiFetch<Order>(API.orders.create.endpoint, {
-    method: 'POST',
-    body: JSON.stringify({
-      items: lines.map((l) => ({
-        productId: l.product.id,
-        quantity: l.quantity,
-        size: l.size,
-        color: l.color,
-      })),
-      shippingAddress,
-      paymentMethod,
-    }),
-  })
+  const subtotal = lines.reduce((acc, line) => acc + line.product.price * line.quantity, 0)
+  const { shipping, tax, total } = calculateOrderTotals(subtotal)
+
+  const newOrder: Order = {
+    id: `ORD-${Date.now()}`,
+    createdAt: new Date().toISOString(),
+    status: 'pending',
+    items: lines.map((l) => ({
+      product: l.product,
+      quantity: l.quantity,
+      size: l.size,
+      color: l.color,
+      price: l.product.price,
+    })),
+    shippingAddress,
+    paymentMethod,
+    subtotal,
+    shippingFee: shipping,
+    tax,
+    total,
+  } as unknown as Order
+
+  const orders = getStoredOrders()
+  orders.unshift(newOrder)
+  localStorage.setItem(ORDERS_KEY, JSON.stringify(orders))
+
+  return newOrder
 }
 
 export async function getOrderHistory(): Promise<Order[]> {
-  return apiFetch<Order[]>(API.orders.getAll.endpoint)
+  return getStoredOrders()
 }
 
 export async function getOrderById(id: string): Promise<Order | undefined> {
-  try {
-    return await apiFetch<Order>(withParams(API.orders.getById.endpoint, { id }))
-  } catch {
-    return undefined
-  }
+  const orders = getStoredOrders()
+  return orders.find((o) => o.id === id)
 }
