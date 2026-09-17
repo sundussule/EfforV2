@@ -2,7 +2,7 @@ import type { User } from '@/types'
 
 const SESSION_KEY = 'effor_session_user'
 
-export async function login(email: string): Promise<User> {
+export async function login(email: string, _password?: string): Promise<User> {
   const dummyUser: User = {
     id: '1',
     email,
