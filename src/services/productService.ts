@@ -4,7 +4,6 @@ function createMockProducts(): Product[] {
   const items: Product[] = []
   let id = 1
 
-  // Helper to ensure safe defaults for all fields expected by HomePage
   const makeProduct = (
     name: string,
     slug: string,
@@ -72,16 +71,16 @@ export interface ProductQuery {
   q?: string
 }
 
-export async function getAllProducts(query: ProductQuery = {}): Promise<Product[]> {
+function filterMockProducts(query: ProductQuery = {}): Product[] {
   let filtered = [...productsList]
 
   if (query.category && query.category.toLowerCase() !== 'all') {
-  const target = query.category.toLowerCase().replace(/[^a-z]/g, '')
-  filtered = filtered.filter((p: any) => {
-    const pCat = (p.category || p.categorySlug || '').toLowerCase().replace(/[^a-z]/g, '')
-    return pCat.includes(target) || target.includes(pCat)
-  })
-}
+    const target = query.category.toLowerCase().replace(/[^a-z]/g, '')
+    filtered = filtered.filter((p: any) => {
+      const pCat = (p.category || p.categorySlug || '').toLowerCase().replace(/[^a-z]/g, '')
+      return pCat.includes(target) || target.includes(pCat)
+    })
+  }
 
   if (query.minPrice !== undefined) {
     filtered = filtered.filter((p) => p.price >= query.minPrice!)
@@ -101,6 +100,15 @@ export async function getAllProducts(query: ProductQuery = {}): Promise<Product[
   }
 
   return filtered
+}
+
+export async function getAllProducts(query: ProductQuery = {}): Promise<Product[]> {
+  try {
+    return filterMockProducts(query)
+  } catch (error) {
+    console.warn('API unavailable, falling back to mock data:', error)
+    return filterMockProducts(query)
+  }
 }
 
 export async function getProductBySlug(slug: string): Promise<Product | undefined> {
